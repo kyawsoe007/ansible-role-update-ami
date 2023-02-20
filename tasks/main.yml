@@ -1,0 +1,24 @@
+---
+# tasks file for ansible-role-update-ami
+
+- name: Update package cache
+  apt:
+    update_cache: true
+
+- name: Install basic packages
+  apt:
+    state: present
+    pkg:
+      - apt-transport-https
+      - ca-certificates
+      - curl
+      - software-properties-common
+      - net-tools
+      - ufw
+      - fail2ban
+      - wireguard
+      - python3-pip
+      - python3-nftables
+      - iptables-persistent
+
+
