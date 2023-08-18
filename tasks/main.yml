@@ -12,13 +12,14 @@
       - apt-transport-https
       - ca-certificates
       - curl
-      - software-properties-common
-      - net-tools
-      - ufw
-      - fail2ban
-      - wireguard
-      - python3-pip
-      - python3-nftables
-      - iptables-persistent
+      - jq
+      # - software-properties-common
+      # - net-tools
+      # - ufw
+      # - fail2ban
+      # - wireguard
+      # - python3-pip
+      # - python3-nftables
+      # - iptables-persistent
 
 
